@@ -14,14 +14,14 @@
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.example.addon.Addon"
+      "hud.plus.Main"
     ]
   },
   "mixins": [
-    "addon-template.mixins.json"
+    "hud-plus.mixins.json"
   ],
   "custom": {
-    "meteor-client:color": "225,25,25"
+    "meteor-client:color": "69,42,0"
   },
   "depends": {
     "java": ">=17",
